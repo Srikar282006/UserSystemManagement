@@ -30,7 +30,7 @@ const addData = async (req, res) => {
         const newData = await DataModel.create({
             FirstName,
             LastName,
-            coverImage: req.file ? req.file.filename : null, // ✅ Handle optional file
+            coverImage: req.file ? req.file.filename : null, 
             createdBy: createdBy,
         });
 
