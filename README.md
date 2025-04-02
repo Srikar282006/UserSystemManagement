@@ -1,6 +1,6 @@
 For loading webpage 
 Steps to be Follwed:-
-cd client/client-side
+cd client
 then run :- npm run dev
 
 for server side
